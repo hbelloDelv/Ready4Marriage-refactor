@@ -1,0 +1,173 @@
+
+/* Starts */
+.photofeedFormWrapper{
+    width: 90%;
+    margin: auto;
+
+}
+
+.photofeedFormSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    background-color: white;
+    min-height: 16vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2%;
+    border-radius: 10px;
+}
+
+
+.genderGrouping{
+    display: flex;
+    padding: 16px 0px 16px 0px;
+}
+
+.form-groupAge{
+    padding: 16px 16px 16px 0px;  
+}
+
+
+.form-grouplocation{
+    padding: 16px 16px 16px 0px;   
+}
+
+
+.anyGender{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+    color: rgba(134, 130, 130, 0.911);
+    border: 1px solid rgb(202, 200, 200);
+    
+}
+
+.maleGender{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+    color: rgba(134, 130, 130, 0.911);
+    border: 1px solid rgb(202, 200, 200);
+}
+
+
+.femaleGender{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+    color: rgba(134, 130, 130, 0.911);
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.genderGroupingIcons{
+    width: 18px;
+    height: 18px;
+}
+
+.genderHeader{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ageHeader{
+    font-size: 0.8rem;
+    font-weight: 500;
+    
+}
+
+
+.locationHeader{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.ageGrouping{
+    display: flex;
+    /* margin-right: 16px; */
+}
+
+.locationGrouping{
+    display: flex;
+    /* margin-right: 16px; */
+}
+
+.searchButtonBgcolor{
+    background-color: purple;
+    border: purple;
+}
+
+    
+#selectBoxStyling{
+    font-size: 0.9rem;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 8px;
+    color: grey;
+    font-weight: 400;
+}
+
+@media (max-width: 40em){
+    .photofeedFormSection{
+        display: block;
+        padding: 16px 4%;
+    }
+
+    
+    .genderGrouping{
+        margin-bottom: 16px;
+    }
+
+    .ageGrouping{
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .locationGrouping{
+        display: block;
+    }
+
+    .form-groupAge{
+        padding: 0px 0px 0px 0px;  
+    }
+    
+    /* this class makes the inputs maintain equal lenght  */
+    .form-grouplocation{
+        padding: 16px 0px 16px 0px; 
+    }
+
+    .form-groupAgeMediaQuery{
+        padding: 16px 0px 16px 0px; 
+    }
+
+
+    .ageHeader{
+        padding-bottom: 16px;
+        
+    }
+
+    #selectBoxStyling{
+        width: 100%;
+    }
+    
+
+}
+
+/* Ends */

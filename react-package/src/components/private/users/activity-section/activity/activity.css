@@ -1,0 +1,46 @@
+/* Starts */
+.activityWrapper {
+    margin: auto;
+    background-color: rgb(252, 203, 213);
+    min-height: 40vh;
+    }
+
+
+.activityHeader{
+    padding-top: 16px;
+}
+
+.activityWrapper p{
+text-align: center;
+font-weight: 500;
+font-size: 1.2rem;
+}
+
+
+.activity-links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.activity-links li{
+    display: inline-block;
+    padding: 16px;
+    /* width: 80%; */
+}
+
+.activity-links a{
+    text-decoration: none;
+    color: lightskyblue;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 8px;
+   
+}
+
+.activity-links a:hover{
+    background-color: rgb(244, 249, 250);
+   
+}

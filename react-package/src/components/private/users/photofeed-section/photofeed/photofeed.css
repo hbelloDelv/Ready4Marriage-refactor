@@ -1,0 +1,79 @@
+.photofeedHeader h4{
+    padding: 32px 0px 24px 0px;
+    color: gray;
+    width: 90%;
+    margin: auto;
+}
+
+/* Starts */
+.photofeedUsersWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    /* background-color: rgb(114, 114, 184); */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+
+@media (max-width: 40em){
+    .photofeedUserWrapper{
+        display: block;
+    }
+
+}
+/* Ends */
+
+
+
+/* Starts */
+.photofeedUserContent{
+    width: 15%;
+   /* background-color: red; */
+}
+
+
+@media (max-width: 40em){
+    .photofeedUserContent{
+        width: 100%;
+        margin: 8px 0px;
+    }
+
+}
+
+.photofeedUser-image{
+    /* accidental discovery wow 31st Aug 2021 */
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+
+.photofeedUser-image img{
+    display: inline-block;
+    width: 70%;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* .photofeedLink a{
+    display: inline-block;
+    width: 70%;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+} */
+
+.photofeedUser-identity{
+    text-align: center;
+    font-weight: bold;
+}
+
+.photofeedUser-locatAt{
+    text-align: center;
+    font-weight: bold;
+}
+/* Ends */

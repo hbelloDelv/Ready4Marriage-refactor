@@ -1,0 +1,399 @@
+/* Starts */
+.userProfile-bg{
+    /* background-color: gainsboro; */
+    background-color: rgb(252, 203, 213);
+}
+
+
+
+.profileWrapper{
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    column-gap: 24px;
+    margin: auto;
+    width: 90%;
+    /* min-height: 100vh; */
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 40em){
+    .profileWrapper{
+        display: block;
+        margin-bottom: 24px;
+    }
+}
+
+/* 
+.UserProfile-SectionOne{
+    background-color: yellow;
+ 
+} */
+
+.userProfile-cardWrapper{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 16px;
+   
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+    margin-bottom: 32px;
+}
+
+.userProfileImage{
+    width: 90%;
+    background-color: lightblue;
+    border-radius: 5px;
+    min-height: 30vh;
+}
+
+.userProfileImage img{
+    width: 100%;
+}
+
+
+.privatePicturesWrapper{
+    width: 90%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    gap: 10px;
+}
+
+.privatePicturesWrapper .items{
+    min-height: 10vh;
+    /* width: 500%; */
+    background-color: rgb(230, 173, 187);
+    border-radius: 5px; 
+    text-align: center;
+}
+
+.sectionOneButton {
+    width: 90%;
+    margin: 16px 0px;
+}
+
+
+.sectionOneButton button{
+    margin: 0px 0px 48px 0px;
+}
+
+.colorBtnRequestAcess{
+    background-color: purple;
+    border: none;
+    /* font-size: 500; */
+}
+
+.requesAccessIcon{
+    margin-right: 8px;
+}
+/* Ends */
+
+
+
+
+/* Starts */
+.UserProfile-SectionTwo{
+    /* background-color: white; */
+    margin-bottom: 32px;
+    
+}
+
+.userdetailsHeader{
+    background-color: #fff;
+    border-radius: 5px; 
+    /* box-shadow: 0px 0px 10px gray; */
+    
+}
+
+/* Starts */
+.userIdentity-one{
+    display: flex;
+    padding: 16px 0px 0px 8px;
+    align-items: center;
+}
+
+
+.userSpacing{
+   margin-left: 8px;
+   font-weight: bold;
+   color: gainsboro;
+}
+
+.userName{
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* grid-column: 2/ 5; */
+}
+
+.userAge{
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.heartImoji{
+    margin-top: 5%;
+    margin-left: 16px;
+    color: blueviolet;
+    
+}
+
+/* Ends */
+
+
+/* Starts */
+.userIdentity-two{
+    display: flex;
+    padding: 0px 0px 24px 8px;
+    align-items: center;
+    border: 1px solid gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.userIdentityIcon{
+   color:white;
+}
+
+.heartImojiIcon{
+    width: 32px;
+   height: 32px; 
+   /* cursor: pointer; */
+}
+
+
+.userImageDiv{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    background-color: gainsboro;
+    /* cursor: pointer; */
+}
+
+
+
+.userCountry{
+    padding-right: 8px;
+    font-weight: bold;
+    color: gray;
+}
+
+.userLocation{
+    font-weight: bold;
+    color: gray;
+}
+/* Ends */
+
+
+/* Starts */
+.userIdentity-three{
+    display: flex;
+    padding: 16px 8px;
+    align-items: center;
+}
+
+.userButton{
+    padding-right: 8px;
+}
+
+.bgMessageButton{
+    background-color: purple;
+    border: none;
+    height: 20%;
+}
+
+.userGifts{
+    padding-right: 8px;
+}
+
+.bgGiftButton{
+    background-color: rgb(252, 127, 148);
+    border: none;
+}
+/* Ends */
+
+/* Starts */
+.userdetailsWrapper{
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+.genderWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:  white;
+    padding: 16px;
+    gap: 16px;
+    margin-top: 24px;
+    
+}
+
+.itemTextGender{
+    font-weight: 500;
+}
+
+.valueTextGender{
+    color: rgb(179, 175, 175);
+}
+
+.description{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-left: none;
+    border-right: none;
+    padding: 16px;
+}
+
+
+.valueTextDescription{
+    color: rgb(179, 175, 175);
+}
+
+
+.contactHeader{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 8px 16px;
+}
+
+
+.aboutmeHeader{
+    border-left: none;
+    border-right: none;
+    padding: 16px;
+    background-color: white;
+}
+
+.aboutme{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+    gap: 16px;  
+    background-color: white;
+}
+
+.itemTextAboutme{
+    font-weight: 500;
+}
+
+.valueTextAboutme{
+    color:rgb(163, 156, 156)
+}
+
+
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+    gap: 16px; 
+    background-color: white;
+}
+
+
+.itemTextContact{
+    font-weight: 500;
+}
+
+.valueTextContact{
+    color:rgb(163, 156, 156)
+}
+
+/* Ends */
+
+
+
+/* Starts */
+.UserProfile-SectionThree{
+    /* background-color: yellow; */
+    width: 100%;
+   
+}
+
+
+/* Starts */
+.popularity{
+    border-radius: 5px; 
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+    margin-bottom: 32px;
+    min-height: 15vh;
+}  
+
+.popularityParagContent{
+    padding: 16px 16px 0px
+}
+
+
+
+.popularityPText{
+    font-weight: bold;
+}
+
+
+.popularitySpandText{
+    color: gray;
+    font-weight: 500;
+}
+
+/* Progress bar */
+
+.progressBar{
+    /* padding: 0px 0px 16px; */
+    background-color: red;
+    margin: 0px 16px 16px;
+}
+
+
+
+
+
+.gift{
+    border-radius: 5px; 
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+}  
+
+.giftItemOne {
+    padding: 24px 0px 0px 16px;
+} 
+
+.giftItemOnePText{
+    font-weight: 500;
+}
+
+.giftItemOneSpanText{
+    color: gray;
+}
+
+
+.giftItemTwo {
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 64px;
+}  
+
+
+.giftItemTwoPText{
+    color: gray;
+    font-weight: 400;
+}
+/* Ends */

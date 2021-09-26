@@ -1,0 +1,241 @@
+
+/* Starts */
+.encounterWrapper{
+    /* background-color: gainsboro; */
+    background-color: rgb(252, 203, 213);
+}
+
+.encounterContentWrapper{
+    /* width: 90%; */
+    padding: 0px 40px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.encounerHeader{
+    font-weight: bold;
+    padding: 32px 0px 0px 0px;
+    /* background-color: gainsboro; */
+    background-color: rgb(252, 203, 213);
+}
+
+.myFavoritePersonIcon{
+    width: 40px;
+    height: 40px;
+    color: rgb(245, 19, 19);
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.encounterMessageIcon{
+    width: 40px;
+    height: 40px;
+    color: purple;
+}
+
+
+.encounterDeleteIcon{
+    width: 40px;
+    height: 40px;
+    color: gray;
+}
+
+
+
+.sectionsWrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 16px;
+}
+
+.leftSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.leftSection-img{
+    grid-column: 1/span 3;
+    grid-row: 1/span 2;
+}
+
+.leftSection-img img{
+   width: 100%;
+   /* height: 70%; */
+}
+
+.leftSection-LikeButton{
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    
+
+    width: 64px;
+    height: 64px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* box-shadow: 
+        inset -3px -3px 4px  rgba(255, 255, 255, 0.8)
+        inset  3px 3px 10px  rgba(0, 0, 0, 0.4); */
+}
+
+.leftSection-MessageButton{
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+
+    width: 64px;
+    height: 64px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.leftSection-DeleteButton{
+    grid-column: 3;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+
+
+    width: 64px;
+    height: 64px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSection{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-top: none;
+    border-bottom: none;
+    /* border-left: none; */
+    border-right: none;
+    
+}
+
+.rightSection-one{
+    border: 1px solid gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 16px 0px 8px 8px;
+}
+
+.rightSectionPersonName{
+    font-size: 190%;
+}
+
+.stateLocationText{
+    color: grey;
+    font-weight: 500;
+}
+
+.valueText{
+    color: grey;
+    font-weight: 500;
+    padding: 0px 0px 16px;
+}
+
+.rightSection-icons{
+    display: flex;
+}
+
+.gender-icon{
+    width: 32px;
+    height: 32px;
+    background-color: hotpink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.genderIconEmoji{
+    width: 16px;
+    height: 16px;
+    color:white;
+    /* background-color: white; */
+
+}
+
+.status-icon{
+    width: 32px;
+    height: 32px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px; 
+    cursor: pointer; 
+}
+
+
+.statusIconEmoji{
+    width: 16px;
+    height: 16px;
+}
+
+
+.category-icon{
+    width: 32px;
+    height: 32px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px; 
+    cursor: pointer;
+}
+
+
+.categoryIconEmoji{
+    width: 16px;
+    height: 16px; 
+}
+
+
+
+.rightSection-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px 0px 8px 8px;
+    border: 1px solid gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.rightSection-three{
+    padding: 16px 0px 8px 8px;
+    
+}
+/* Ends */

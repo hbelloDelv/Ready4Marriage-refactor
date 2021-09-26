@@ -1,0 +1,166 @@
+/* Starts */
+.securityWrapper-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* justify-content: center;
+    align-items: center; */
+    gap: 32px;
+    width: 85%;
+    margin: auto;
+    margin-top: 64px;
+}
+/* Ends */
+
+
+/* starts */
+.securityHeader-style{
+    margin-top: 128px;
+}
+
+.security-text h2{
+    padding: 48px 0px 8px 0px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .security-text{
+    width: 40%;
+    margin: auto; 
+  }
+
+  @media (max-width: 40em){
+    .security-text{
+      width: 90%;
+      
+    }
+  }
+  
+  .security-text p{
+    text-align: center;
+    line-height: 2.2;
+    
+  }
+
+ 
+/* End */
+
+
+/* Starts */
+.verifiedUser-style{
+    min-height: 50vh;
+    padding: 40px 58px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+
+.verifiedUser-style-icon{
+  text-align: center;
+  padding: 16px 0px 48px 0px;
+}
+
+
+.verifiedUser-style h4{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+
+.verifiedUser-style p{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+/* Ends */
+
+
+/* Starts */
+.confidentiality-style{
+    min-height: 50vh;
+    padding: 40px 58px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+
+
+.confidentiality-style-icon{
+  text-align: center;
+  padding: 16px 0px 48px 0px;
+}
+
+
+.confidentiality-style h4{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+
+.confidentiality-style p{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+/* End */
+
+
+/* Starts */
+.securitySystem-style{
+    min-height: 50vh;
+    padding: 40px 58px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px gainsboro;
+}
+
+.securitySystem-style-icon{
+  text-align: center;
+  padding: 16px 0px 48px 0px;
+}
+
+
+.securitySystem-style h4{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+
+.securitySystem-style p{
+  text-align: center;
+  /* font-size: 3vw; */
+}
+/* Ends */
+
+
+/* Starts  */
+.confidentiality-style-icon{
+  margin: auto;
+}
+
+.confi-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */
+
+/* Starts  */
+.securitySystem-style-icon{
+  margin: auto;
+}
+
+.securitySys-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */
+
+
+/* Starts  */
+.verifiedUser-style-icon{
+  margin: auto;
+}
+
+.verifiedUser-icon{
+  width: 64px;
+  height: 64px;
+  color: rgb(233, 74, 74);
+}
+
+/* Ends */

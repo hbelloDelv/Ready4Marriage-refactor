@@ -1,0 +1,71 @@
+/* Starts */
+.footerWrapper-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* justify-content: center;
+    align-items: center; */
+    gap: 16px;
+    width: 85%;
+    margin: auto;
+    margin-top: 136px;
+}
+/* Ends */
+
+/* Starts */
+@media (max-width: 40em){
+    .footerWrapper-style{  
+        text-align: center;
+    }
+}
+/* Ends */
+
+
+/* Starts */
+.readyForMarriage-style h6{
+    padding-bottom: 12px;
+}
+/* Ends */
+
+
+/* Starts */
+.document-style li{
+    /* text-decoration: none; */
+    list-style: none;
+    line-height: 3;
+}
+/* Ends */
+
+
+/* Starts */
+.info-style li{
+    list-style: none;
+    line-height: 3;
+}
+/* Ends */
+
+
+
+/* Starts */
+.support-style li{
+    list-style: none;
+    line-height: 3;
+}
+/* Ends */
+
+
+/* Starts */
+.allrightsreserve-style{
+    width: 85%;
+    margin: auto;
+    margin-top: 24px;
+}
+/* Ends */
+
+/* Starts */
+@media (max-width: 40em){
+    .allrightsreserve-style{  
+        text-align: center;
+    }
+}
+/* Ends */

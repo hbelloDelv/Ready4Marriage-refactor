@@ -1,0 +1,48 @@
+.herosection-style{
+    padding: 48px 0px 288px 0px;
+    /* padding-bottom: 288px; */
+  }
+  
+  
+  .herosection-style{
+    background-image: url('../hero-section/hero-image/hero-bg-4.jpg');
+    background-color: palevioletred;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    
+   
+  }
+  
+  
+  /* Dont use "em" or "px" to size text use viewport units for responsive typography*/
+  .herosection-style h1{
+    margin: 56px 0px 0px 48px;
+    font-size: 8vw;
+    font-weight: bolder;
+    color: #ffffff;
+  }
+  
+  .herosection-text p{
+    margin: 24px 0px 0px 48px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .button-style {
+    text-decoration: none;
+    background-color: white;
+    margin: 16px 0px 0px 48px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .button-style a{
+    text-decoration: none;
+    color: lightcoral;
+    font-weight: bold;
+  }

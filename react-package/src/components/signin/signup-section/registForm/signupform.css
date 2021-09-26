@@ -1,0 +1,82 @@
+.bg-regForm{
+    background-image: url('../signupImage/hero-bg-3.jpg');
+    background-color: palevioletred;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    min-height: 100vh;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.regForm-style{
+    width: 70%;
+    min-height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+
+@media (max-width: 40em){
+    .regForm-style{
+        min-width: 100%;
+    }
+
+    .btn-style{
+        width: 100%;
+    }
+}
+
+.regParagraph p{
+    text-align: center;
+}
+
+.content h3{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.regLinks li{
+    display: inline-block;
+}
+
+.regLinks a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: small;
+    color: gray;
+    font-weight: bold;
+}
+
+.form-group{
+    padding: 16px;
+}
+
+.formInputs-style{
+    width: 90%;
+    margin: auto;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    /* margin: 24px; */
+   
+}
+
+.Button{
+    margin: 32px;
+    /* padding-left: 35%; */
+}
+
+.btn-style{
+    /* margin: 32px; */
+    margin-bottom: 24px;
+    /* margin: auto; */
+}
