@@ -1,5 +1,5 @@
 import React from 'react';
-import FormLogo from '../loginformImages/logo.png'
+import FormLogo from '../loginformImage/logo.png'
 
 
 function LoginFormHeader() {
